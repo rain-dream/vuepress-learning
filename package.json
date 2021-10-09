@@ -1,0 +1,27 @@
+{
+  "name": "is3-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "countup.js": "^2.0.8",
+    "vuepress": "^1.8.2"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/lzkqcc/is3-doc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
