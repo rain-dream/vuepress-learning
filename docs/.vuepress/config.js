@@ -4,7 +4,7 @@ const nav = require('./config/navConf.js');
 const sidebar = require('./config/sidebarConf.js');
 
 module.exports = {
-    base: '/docs/',
+    base: '/vuepress-learning/',
     title: '雨梦',
     description: '雨梦的梦',
     // permalink: "/:year/:month/:day/:slug",
