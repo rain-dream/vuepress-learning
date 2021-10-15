@@ -16,6 +16,7 @@ title: poems1
 > 追加travis-ci</br>
 > 追加travis-ci<br/>
 > 追加travis-ci<br/>
+> 追加travis-ci<br/>
 
 [Home](/)
 [javascript-philosophy1](../javascript/philosophy1.md)
