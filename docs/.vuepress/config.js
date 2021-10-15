@@ -2,6 +2,7 @@ const head = require('./config/headConf.js');
 const plugin = require('./config/pluginConf.js');
 const nav = require('./config/navConf.js');
 const sidebar = require('./config/sidebarConf.js');
+const markdown = require('./config/markdownConfig.js');
 
 module.exports = {
     base: '/vuepress-learning/',
@@ -10,6 +11,7 @@ module.exports = {
     // permalink: "/:year/:month/:day/:slug",
     head: head,
     plugins: plugin,
+    markdown: markdown,
     themeConfig: {
         lastUpdated: "最后更新时间",  // lastUpdated只能在一个基于Git的项目中启动
         logo: '/assets/img/tongji.jpg',
